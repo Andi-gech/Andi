@@ -1,0 +1,331 @@
+.me-auto {
+  margin-left: 550px;
+}
+
+body {
+  background: linear-gradient(to right, #430079 -122%, #000000 100%);
+  font-size: large;
+  font-weight: 20px;
+
+}
+
+.banner {
+  background-color: black;
+}
+
+.as {
+  height: 200px;
+
+}
+
+.Profile {
+  display: inline-flex;
+  padding: 40px;
+  margin-top: -15px;
+
+}
+
+.Profile p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 70px;
+  background: linear-gradient(to right, #00e1ff70 -2%, #050f1d4d 100%);
+  width: 700px;
+  box-shadow: 1px 5px 9px #d6d6d683;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+
+
+  color: rgb(255, 255, 255);
+}
+
+.h1 {
+  color: white !important;
+}
+
+.View {
+  margin-left: 520px;
+  margin-top: 20px;
+}
+
+.birds {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+
+}
+
+.Profile img {
+  margin-right: 10px;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 15px;
+  border-right: #ffffff 2px solid;
+
+
+
+}
+
+.inside div {
+  background-color: transparent;
+  margin-left: 40px;
+  height: 100px;
+
+}
+
+.inside div p {
+  font-weight: bold;
+
+
+  background-color: transparent;
+  padding-left: 10px;
+}
+
+.icon {
+  color: red !important;
+}
+
+.inside {
+  width: 60%;
+  height: 50px;
+  background-color: transparent;
+  display: inline-flex;
+  padding: 0;
+  justify-content: space-between;
+  margin-left: 130px;
+
+}
+
+
+.CircularProgressbar {
+
+  background-color: transparent;
+  margin-top: 0px;
+
+}
+
+.skillbox {
+  background: linear-gradient(to right, #00e1ff70 -2%, #050f1d4d 100%);
+  box-shadow: 1px 5px 9px #d6d6d683;
+  height: 220px;
+  width: 70%;
+
+  margin-left: 100px;
+  border-radius: 90px;
+  color: white;
+}
+
+.i11 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.i11:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 9px #ffffff;
+  background-color: white;
+  border-radius: 5px;
+
+
+}
+
+.popup {
+  background: linear-gradient(to right, #e0c9e0f8 -2%, #0066ffdc 100%);
+  height: 300px;
+  z-index: 1;
+  width: 80px;
+  border-radius: 90px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+
+  align-items: center;
+  top: 45px;
+  right: 60px;
+}
+
+.navbar {
+
+  background: linear-gradient(to right, #430079 -122%, #000000 100%);
+
+
+}
+
+
+
+button {
+  border: 0;
+  background-color: rgb(102, 51, 153);
+  border-radius: 5px;
+  transition: 0.4s ease-in-out;
+  color: white;
+
+
+
+}
+
+.contact {
+  background: linear-gradient(to right, #cc00cc46 -2%, #0066ff73 100%);
+  margin-top: 30px;
+  display: inline-flex;
+
+
+  width: 100%;
+  height: 30px;
+  padding: 0px;
+  border-radius: 9px;
+
+}
+
+.i1 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+button:hover {
+  background-color: rgb(53, 9, 97);
+
+
+}
+
+.bun {
+  margin-left: 5px;
+  color: white !important;
+
+}
+
+img {
+  color: white;
+}
+
+.bun-active,
+.bun:hover {
+  border: 0.5px solid rgb(107, 1, 212);
+  color: white !important;
+
+  margin-left: 5px;
+}
+
+.banner {
+
+  margin-top: 0;
+  padding: 0px 0 507px 0;
+  background-image: url('./assets/sa.jpg');
+
+  height: 650px;
+
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bannerText {
+  background-color: transparent;
+
+  margin-top: 190px;
+  margin-left: 90px;
+  color: #03387e;
+  font-size: 50px;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+
+  font-weight: bold;
+
+}
+
+
+.bannerText span {
+
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+
+
+  color: #000000;
+  font-size: 70px;
+  background-color: transparent;
+}
+
+.View {
+  padding: 0;
+  margin-top: 100px;
+}
+
+.View .icon {
+  margin-bottom: 0;
+}
+
+.counter .allcounter {
+  display: inline-flex;
+}
+
+.counter {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: -30px;
+  color: white;
+
+}
+
+.counter h3 {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+th img {
+  width: 300px;
+  height: 180px;
+  margin: 15px;
+}
+
+td img {
+  width: 300px;
+  height: 180px;
+  margin: 15px;
+}
+
+td p {
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.Project {
+  margin-bottom: 10px;
+}
+
+.Project h1 {
+  color: white;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.cards {
+  background: linear-gradient(to right, #191b1b5b -2%, #38475c4d 100%);
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+  box-shadow: 1px 2px 4px #cc00ff;
+
+}
+
+.cards:hover {
+  box-shadow: 1px 4px 9px #a89eaa;
+
+}
+
+th p {
+  color: white;
+  margin-left: 25px;
+}
+
+.View span {
+  font-weight: bold;
+  font-size: 50px;
+
+
+
+}
