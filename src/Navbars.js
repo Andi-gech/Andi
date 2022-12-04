@@ -37,7 +37,7 @@ function Navbars({ onPres }) {
             <img src={""} alt="Andi.com" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" >
-            <span className="navbar-icon-toogl"></span>
+            <span className="navbar-icon-toogl" onClick={onpress}></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             
