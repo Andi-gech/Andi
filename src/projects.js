@@ -1,7 +1,9 @@
 import React from "react";
-import PRO from "./assets/sa.jpg";
+import PRO from "./assets/no image.jpg";
 import P1 from "./assets/p1.jpg";
 import P2 from "./assets/p2.jpg";
+
+
 import { useMediaQuery } from 'react-responsive'
 
 function Projects(props) {
@@ -36,7 +38,7 @@ function Projects(props) {
               {" "}
               <div className="cards">
                 <img src={PRO} alt="arge" />
-                <p>School Database</p>
+                <p>Not set</p>
               </div>
             </th>
           </tr>
@@ -44,19 +46,19 @@ function Projects(props) {
             <td>
               <div className="cards">
                 <img src={PRO} alt="arge" />
-                <p>School Database</p>
+                <p>Not set</p>
               </div>
             </td>
             <td>
               <div className="cards">
                 <img src={PRO} alt="arge" />
-                <p>School Database</p>
+                <p>Not set</p>
               </div>
             </td>
             <td>
               <div className="cards">
                 <img src={PRO} alt="arge" />
-                <p>School Database</p>
+                <p>Not set</p>
               </div>
             </td>
           </tr>
@@ -85,7 +87,7 @@ function Projects(props) {
               {" "}
               <div className="cards">
                 <img src={PRO} alt="arge" />
-                <p>School Database</p>
+                <p>Not set</p>
               </div>
             </td>
           </tr>
