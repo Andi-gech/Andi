@@ -48,7 +48,7 @@ function Navbars({ onPres }) {
                 className={active === "home" ? "bun-active" : "bun"}
                 onClick={() => onUpdateActiveLink("home")}
               >
-             <Link to="home" spy={true} smooth={true} offset={0} duration={200}> Home</Link>
+             <Link to="home" spy={true} smooth={true} offset={0} duration={200} style={{color:"white",textDecoration:"none"}}> Home</Link>
                
               </Nav.Link>
               <Nav.Link
@@ -84,45 +84,45 @@ function Navbars({ onPres }) {
             <div className="i11">
               <a href="https://www.facebook.com/anduti724">
                 <FaFacebook
-                  size={50}
+                  size={40}
                   color="
-black"
+white"
                 />
               </a>
             </div>
             <div className="i11">
               <a href="https://www.instagram.com/anduti724/">
                 <FaInstagram
-                  size={50}
+                  size={40}
                   color="
-black"
+white"
                 />
               </a>
             </div>
             <div className="i11">
               <a href="https://github.com/Andi-gech">
                 <FaGithub
-                  size={50}
+                  size={40}
                   color="
-black"
+white"
                 />
               </a>
             </div>
             <div className="i11">
               <a href="https://www.tiktok.com/@andutii1">
                 <FaTiktok
-                  size={50}
+                  size={40}
                   color="
-black"
+white"
                 />
               </a>
             </div>
             <div className="i11">
               <a href="ddd">
                 <FaLinkedin
-                  size={50}
+                  size={40}
                   color="
-black"
+white"
                 />
               </a>
             </div>
