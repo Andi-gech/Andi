@@ -9,9 +9,18 @@ import Lottie from "react-lottie";
 import Data from "./25059-gray-seagulls (1).json";
 import { Animator, ScrollContainer, ScrollPage,ZoomInScrollOut, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 import Projects from "./projects";
+import { useMediaQuery } from 'react-responsive'
 import Contact from "./Contact";
 
+
 function Banner(props) {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-width: 1224px)'
+  })
+  const ismobileScreen = useMediaQuery({ query: '(max-width: 600px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+  const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -20,30 +29,15 @@ function Banner(props) {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
-const ZoomInScrollOut = batch(FadeIn(), ZoomIn());
+const ZoomInScrollOut = batch(FadeIn(), ZoomIn(),MoveIn());
 const FadeUp = batch(Fade(), MoveIn(),);
-const [width, setWidth] = useState<number>(window.innerWidth);
-
-function handleWindowSizeChange() {
-    setWidth(window.innerWidth);
-}
-useEffect(() => {
-    window.addEventListener('resize', handleWindowSizeChange);
-    return () => {
-        window.removeEventListener('resize', handleWindowSizeChange);
-    }
-}, []);
-
-const isMobile = width <= 768;
 
 
   return (
     <ScrollContainer>
       <div className="banner">
-       if ({isMobile}) {
-          <Navbars />
-       }
-      
+       
+        <Navbars />
       
         
 
@@ -63,8 +57,9 @@ const isMobile = width <= 768;
       </div>
       <div id='profiles'>
       <ScrollPage>
-      <h1 style={{color:"white",fontFamily:"sans-serif",fontWeight:"bold",marginTop:50,marginLeft:50,fontSize:28}}>Profile</h1>
-    
+      {(isDesktopOrLaptop  && (<h1 style={{color:"white",fontFamily:"sans-serif",fontWeight:"bold",marginTop:29,marginLeft:50,fontSize:28}}>Profile</h1>
+      ))||   <h1 style={{color:"white",fontFamily:"sans-serif",marginTop:"34%",fontWeight:"bold",marginLeft:50,fontSize:28}}>Skills </h1>
+    }
       <Animator animation={ZoomInScrollOut}>
         <Myprofile />
       </Animator>
@@ -72,8 +67,10 @@ const isMobile = width <= 768;
       </div>
       <div id='skill'>
       <ScrollPage  >
+      {(isDesktopOrLaptop  && (
       <h1 style={{color:"white",fontFamily:"sans-serif",fontWeight:"bold",marginLeft:50,fontSize:28}}>Skills</h1>
-    
+     ))||   <h1 style={{color:"white",fontFamily:"sans-serif",marginTop:169,fontWeight:"bold",marginLeft:50,fontSize:28}}>Skills </h1>
+    }
       <Animator  animation={MoveIn(-1000, 0)}>
       <Skill />
       </Animator>

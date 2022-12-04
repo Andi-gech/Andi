@@ -8,8 +8,8 @@ function Myprofile(props) {
       <img src={PRO} alt="arge" />
       <p>
         &nbsp; &nbsp; Hi Welcome to my personal Portfolio My FullName is
-        Andualem Getachew <br />i am 3rd year Computer science enginnering at
-        defence Enginnering <br /> in addition to that i am student of Alx
+        Andualem Getachew . <br/>i am 3rd year Computer science enginnering at
+        defence Enginnering  in addition to that i am student of Alx
         Software enginnering Programm
       </p>
     </div>

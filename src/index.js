@@ -6,9 +6,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import reportWebVitals from "./reportWebVitals";
 import Navbars from "./Navbars";
 import Banner from "./banner";
+import { useMediaQuery } from 'react-responsive'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
+
   <React.StrictMode>
     <Banner />
   </React.StrictMode>

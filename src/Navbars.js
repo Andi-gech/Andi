@@ -9,6 +9,7 @@ import {
   FaTiktok,
 } from "react-icons/fa";
 
+
 import React, { useState } from "react";
 
 import "./app.css";
@@ -19,6 +20,7 @@ import { Link } from "react-scroll";
 function Navbars({ onPres }) {
   const [active, setactive] = useState("home");
   const [visible, setvisible] = useState(false);
+ 
   const onpress = () => {
     const s = !visible;
     setvisible(s);
@@ -34,11 +36,13 @@ function Navbars({ onPres }) {
           <Navbar.Brand href="#home">
             <img src={""} alt="LOGO" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" >
             <span className="navbar-icon-toogl"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
+            
             <Nav className="me-auto">
+              
               <Nav.Link
                 href="#home"
                 className={active === "home" ? "bun-active" : "bun"}
@@ -114,7 +118,7 @@ black"
               </a>
             </div>
             <div className="i11">
-              <a href="">
+              <a href="ddd">
                 <FaLinkedin
                   size={50}
                   color="
