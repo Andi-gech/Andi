@@ -25,6 +25,10 @@ function Navbars({ onPres }) {
     const s = !visible;
     setvisible(s);
   };
+  const onpressdisable = () => {
+    
+    setvisible(false);
+  };
 
   const onUpdateActiveLink = (name) => {
     setactive(name);
@@ -36,8 +40,8 @@ function Navbars({ onPres }) {
           <Navbar.Brand href="#home">
             <img src={""} alt="Andi.com" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" >
-            <span className="navbar-icon-toogl" onClick={onpress}></span>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={onpressdisable}>
+            <span className="navbar-icon-toogl" ></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             
@@ -81,6 +85,7 @@ function Navbars({ onPres }) {
         </Container>
         {visible ? (
           <div className="popup">
+            
             <div className="i11">
               <a href="https://www.facebook.com/anduti724">
                 <FaFacebook
