@@ -11,7 +11,7 @@ import axios from "axios";
 function View(props) {
   const [Value,setvalue]=useState([])
     useEffect(()=>{
-        axios.get('https://api.countapi.xyz/hit/potfolios.pages.dev/visits').then(res=>{
+        axios.get('https://api.countapi.xyz/hit/potfolios.pages.dev/visitors').then(res=>{
             console.log(res.data.value)
             setvalue(res.data.value)
               }).catch(err=>{
