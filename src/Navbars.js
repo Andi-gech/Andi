@@ -34,7 +34,7 @@ function Navbars({ onPres }) {
       <Navbar className="navbar" id='home' expand="lg">
         <Container>
           <Navbar.Brand href="#home">
-            <img src={""} alt="LOGO" />
+            <img src={""} alt="Andi.com" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" >
             <span className="navbar-icon-toogl"></span>
