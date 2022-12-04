@@ -58,7 +58,7 @@ const FadeUp = batch(Fade(), MoveIn(),);
       <div id='profiles'>
       <ScrollPage>
       {(isDesktopOrLaptop  && (<h1 style={{color:"white",fontFamily:"sans-serif",fontWeight:"bold",marginTop:29,marginLeft:50,fontSize:28}}>Profile</h1>
-      ))||   <h1 style={{color:"white",fontFamily:"sans-serif",marginTop:"34%",fontWeight:"bold",marginLeft:50,fontSize:28}}>Skills </h1>
+      ))||   <h1 style={{color:"white",fontFamily:"sans-serif",marginTop:"34%",fontWeight:"bold",marginLeft:50,fontSize:28}}>Profile </h1>
     }
       <Animator animation={ZoomInScrollOut}>
         <Myprofile />
