@@ -22,21 +22,21 @@ function Projects(props) {
           <tr>
             <th>
               {" "}
-              <a href=""><div className="cards">
+              <a href="https://gamersbook.pages.dev/"><div className="cards">
                 <img src={p3} alt="arge" />
                 <p>gamming dashboard</p>
               </div></a>
             </th>
             <th>
               {" "}
-              <a><div className="cards">
+              <a href="https://github.com/Andi-gech/learnfrom"><div className="cards">
                 <img src={P2} alt="arge" />
                 <p>Question-Answer</p>
               </div></a>
             </th>
             <th>
               {" "}
-             <a> <div className="cards">
+             <a > <div className="cards">
                 <img src={P1} alt="arge" />
                 <p>Instagram clone</p>
               </div></a>
