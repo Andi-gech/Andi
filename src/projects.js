@@ -2,7 +2,7 @@ import React from "react";
 import PRO from "./assets/no image.jpg";
 import P1 from "./assets/p1.jpg";
 import P2 from "./assets/p2.jpg";
-
+import p3 from"./assets/dashboard.PNG";
 
 import { useMediaQuery } from 'react-responsive'
 
@@ -22,24 +22,24 @@ function Projects(props) {
           <tr>
             <th>
               {" "}
-              <div className="cards">
-                <img src={P1} alt="arge" />
-                <p>Instagram clone</p>
-              </div>
+              <a href=""><div className="cards">
+                <img src={p3} alt="arge" />
+                <p>gamming dashboard</p>
+              </div></a>
             </th>
             <th>
               {" "}
-              <div className="cards">
+              <a><div className="cards">
                 <img src={P2} alt="arge" />
                 <p>Question-Answer</p>
-              </div>
+              </div></a>
             </th>
             <th>
               {" "}
-              <div className="cards">
-                <img src={PRO} alt="arge" />
-                <p>Not set</p>
-              </div>
+             <a> <div className="cards">
+                <img src={P1} alt="arge" />
+                <p>Instagram clone</p>
+              </div></a>
             </th>
           </tr>
           <tr>
