@@ -16,7 +16,7 @@ function Projects(props) {
   const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
   return (
     <div className="Project" id='projects' >
-      <h1>Working Projects</h1>
+      <h1> Projects</h1>
       <div>
       {(isDesktopOrLaptop  && (<table>
           <tr>
@@ -91,8 +91,8 @@ function Projects(props) {
               </div></a>
             </td>
           </tr>
-          
-        </table>
+
+  </table>
     }
         
       </div>

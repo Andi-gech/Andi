@@ -7,10 +7,7 @@ function Myprofile(props) {
     <div className="Profile" id="profile212">
       <img src={PRO} alt="arge" />
       <p>
-        &nbsp; &nbsp; Hi Welcome to my personal Portfolio My FullName is
-        Andualem Getachew . <br/>i am 3rd year Computer science enginnering at
-        defence Enginnering  in addition to that i am student of Alx
-        Software enginnering Programm
+        &nbsp; &nbsp; Hello and welcome to my personal website. I'm Andualem Getachew, to be exact I'm a third-year defense engineering student. Additionally, I'm a student of the Alx Software Engineering Program.
       </p>
     </div>
   );
