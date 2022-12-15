@@ -67,28 +67,28 @@ function Projects(props) {
           <tr>
             <th>
               {" "}
-              <div className="cards">
-                <img src={P1} alt="arge" />
-                <p>Instagram clone</p>
-              </div>
+              <a href="https://gamersbook.pages.dev/"><div className="cards">
+                <img src={p3} alt="arge" />
+                <p>gamming dashboard</p>
+              </div></a>
             </th>
            </tr>
            <tr>
             <td>
               {" "}
-              <div className="cards">
+              <a href="https://github.com/Andi-gech/learnfrom"><div className="cards">
                 <img src={P2} alt="arge" />
                 <p>Question-Answer</p>
-              </div>
+              </div></a>
             </td>
             </tr>
             <tr>
             <td>
               {" "}
-              <div className="cards">
-                <img src={PRO} alt="arge" />
-                <p>Not set</p>
-              </div>
+              <a > <div className="cards">
+                <img src={P1} alt="arge" />
+                <p>Instagram clone</p>
+              </div></a>
             </td>
           </tr>
           
